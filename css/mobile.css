@@ -1,0 +1,196 @@
+.container{
+    width: 350px;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    margin: auto;
+}
+
+.left-container {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+} 
+
+.logo {
+    position: static;
+}
+
+.banner img{
+    display: none;
+}
+
+.logo img {
+    
+    height: 2em;
+    background-color: #fff;
+}
+
+.right-container {
+    width: auto;
+    overflow: auto;
+    height:auto;
+    
+}
+
+.list {
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.list li {
+    font-size: 14px;
+}
+
+.line {
+display: none;
+}
+
+.list-item {
+    margin-right: 20px;
+}
+
+.heading{
+    width: 300px;
+    margin: auto;
+}
+
+.secondary {
+    margin: auto;
+}
+
+.sizeh{
+    font-size: 30px;
+    margin-left: 20px;
+     
+}
+
+.parap {
+    font-size: 20px;
+    align-self: center;
+    color: #898888;
+}
+
+.btn-wrapper {
+    position: static;
+    align-self:center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;    
+    justify-content:space-between;    
+    width: 300px;
+    position: static;
+    height: auto;
+    cursor: pointer;
+    margin: auto;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 15px;
+}
+
+.right-upside {
+    height: auto;
+}
+
+.right-bottom-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    gap: 20px;
+}
+
+.right-bottom-section ul {
+    width: auto;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+        
+}
+
+.right-bottom-section ul li {
+    margin: auto;
+    display: flex;
+    
+}
+
+.right-bottom-section ul li span {
+    background-color: #868686;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: center;
+    margin: auto;
+    margin-right: 10px;
+    
+}
+
+
+.line-dot {
+    display: none;
+   
+  }
+
+.active-item .dot {
+    background-color: #333333;
+}
+
+.active-item p {
+    color: #333333;
+}
+
+.quote-icon .fa-quote-right {
+    color: #333333;
+    font-size: 20px;;
+    margin: auto;
+}
+
+.quote-icon {
+    margin: auto;
+}
+
+
+
+.bottom-img {
+    overflow: auto;
+    width: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.bottom-img img{
+    width: 300px;
+    height: auto;
+    position: static;
+    
+}
+
+.bottom-quote p {
+    font-size: 12px;
+    font-weight: 500;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.arrow img {
+    display: none;
+}
